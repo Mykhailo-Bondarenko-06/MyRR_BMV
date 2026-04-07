@@ -31,6 +31,7 @@ img:hover {
 p {
     font-family: Consolas;
     font-size: 1.2em;
+    text-align: center;
     margin-top: 0.5em;
     margin-bottom: 1em;
     
@@ -50,4 +51,25 @@ section {
     margin-bottom: 2em;
 }
 
+a {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    background-color: #e26161;
+    
+    transition: 0.2s;
+}
+
+a:hover {
+    background-color: #fb3828;
+    text-decoration: underline;
+}
 
