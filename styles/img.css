@@ -1,8 +1,0 @@
-img {
-    border-radius: 8px;
-}
-
-img:hover {
-    transition: 0.2s;
-    box-shadow: 0 0 10px #0b0f1e;
-}
